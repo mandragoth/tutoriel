@@ -1,0 +1,43 @@
+{
+    "ressources": [
+        {
+            "res": "res/player/hud.png",
+            "type": "sprite",
+            "atlas": [
+                {
+                    "name": "LeJoueur01",
+                    "pos": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 32,
+                        "h": 32
+                    }
+                }
+            ]
+        },
+        {
+            "res": "res/player/joueur_qui_pète.png",
+            "name": "son_rigolo",
+            "type": "sound",
+            "volume": 0.2,
+            "loop": true
+        },
+        {
+            "res": "res/env/fortnite/construts/plank.png",
+            "name": "matexture",
+            "type": "diffuse"
+        },
+        {
+            "res": [
+                "res/env/sky/0.png",
+                "res/env/sky/1.png",
+                "res/env/sky/2.png",
+                "res/env/sky/3.png",
+                "res/env/sky/4.png",
+                "res/env/sky/5.png"
+            ],
+            "type": "cube2cubor",
+            "name": "moncieltropjoli"
+        }
+    ]
+}
